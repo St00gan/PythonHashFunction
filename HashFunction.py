@@ -103,6 +103,9 @@ def lnum2():
 def entropy():#define the start of the entropy function
     print('Entropy!')#Entropy! is printed to the console
     print(nn)#the final hashed nn is printed to the console
+    a = hex(int(nn)).split('x')[-1]
+    print("\n"*3)
+    print(str(a))
     input()#waits for input
 
 #Convert Input into number string and number list
